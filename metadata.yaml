@@ -1,7 +1,7 @@
 homepage: "https://REPLACE_WITH_PUBLIC_HOMEPAGE"
 documentation: "https://REPLACE_WITH_PUBLIC_DOCUMENTATION"
 versions:
-  - sha: "REPLACE_WITH_FIRST_RELEASE_COMMIT_SHA"
+  - sha: "b3e7541de41e501ecb33daea60863c0fd4fc8ec8"
     changeNotes: |
       Initial public release of the Starti Conversion Events Pixel template.
 

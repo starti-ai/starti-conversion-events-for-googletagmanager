@@ -119,6 +119,27 @@ Example:
 
 In practice, one Starti event is typically implemented with one GTM tag and one GTM trigger.
 
+However, GTM also allows one tag to be attached to multiple triggers.
+
+This is useful when multiple website events should send the same Starti event with the same field mapping.
+
+Example:
+
+- Website event `newsletter_signup_footer`
+- Website event `newsletter_signup_modal`
+- GTM triggers for both events
+- One GTM tag with:
+  - `Event Type`: `Custom Event`
+  - `Custom Event Name`: `newsletter_signup`
+
+In this setup, one tag can be reused for multiple website events as long as:
+
+- they should all send the same final Starti event name
+- they use the same field mapping
+- they use the same tag-level settings
+
+If different website events require different Starti event names or different field mappings, create separate GTM tags.
+
 ## Recommended Tag Setup
 
 ### Page View Tag
@@ -157,6 +178,8 @@ In practice, one Starti event is typically implemented with one GTM tag and one 
 - `Event Type`: `Custom Event`
 - `Custom Event Name`: your configured Starti custom event name
 - Trigger: the website event that should fire that custom tag
+
+This tag can also be attached to multiple GTM triggers when several website events should all map to the same custom event in Starti.
 
 ## Example Website Events
 
