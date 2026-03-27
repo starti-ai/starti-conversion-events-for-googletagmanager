@@ -1,0 +1,12 @@
+homepage: "https://REPLACE_WITH_PUBLIC_HOMEPAGE"
+documentation: "https://REPLACE_WITH_PUBLIC_DOCUMENTATION"
+versions:
+  - sha: "REPLACE_WITH_FIRST_RELEASE_COMMIT_SHA"
+    changeNotes: |
+      Initial public release of the Starti Conversion Events Pixel template.
+
+      Included in this release:
+      - Standard and custom event tracking
+      - GA4 ecommerce item mapping
+      - Optional user matching fields
+      - Custom fields and additional parameters
