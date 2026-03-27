@@ -1,6 +1,9 @@
 homepage: "https://REPLACE_WITH_PUBLIC_HOMEPAGE"
 documentation: "https://REPLACE_WITH_PUBLIC_DOCUMENTATION"
 versions:
+  - sha: "0d7ef58dfd71b7e9f8b4ebec69c2179162f673b6"
+    changeNotes: |
+      Updated the template to load the Starti Pixel SDK from the production CDN.
   - sha: "b3e7541de41e501ecb33daea60863c0fd4fc8ec8"
     changeNotes: |
       Initial public release of the Starti Conversion Events Pixel template.
