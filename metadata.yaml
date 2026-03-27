@@ -1,5 +1,5 @@
-homepage: "https://REPLACE_WITH_PUBLIC_HOMEPAGE"
-documentation: "https://REPLACE_WITH_PUBLIC_DOCUMENTATION"
+homepage: "https://github.com/starti-ai/starti-conversion-events-for-googletagmanager"
+documentation: "https://github.com/starti-ai/starti-conversion-events-for-googletagmanager"
 versions:
   - sha: "0d7ef58dfd71b7e9f8b4ebec69c2179162f673b6"
     changeNotes: |
