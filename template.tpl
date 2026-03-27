@@ -383,7 +383,7 @@ const makeTableMap = require('makeTableMap');
 const getType = require('getType');
 
 // Starti Pixel SDK URL
-const STARTI_SDK_URL = 'https://piexl.oss-cn-beijing.aliyuncs.com/starti-pixel.js';
+const STARTI_SDK_URL = 'https://cdn.starti.ai/js/starti-pixel.min.js';
 const STARTI_FUNCTION_NAME = 'startiPixel';
 const STARTI_LAYER_NAME = 'startiPixelLayer';
 
@@ -687,7 +687,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://piexl.oss-cn-beijing.aliyuncs.com/starti-pixel.js"
+                "string": "https://cdn.starti.ai/js/starti-pixel.min.js"
               }
             ]
           }
