@@ -1,6 +1,10 @@
 homepage: "https://github.com/starti-ai/starti-conversion-events-for-googletagmanager"
 documentation: "https://github.com/starti-ai/starti-conversion-events-for-googletagmanager"
 versions:
+  - sha: "e9cf0245aa7b03ee967361d392e590c67993a72d"
+    changeNotes: |
+      Replaced the template brand thumbnail with a PNG data URI.
+      Kept the template file in gallery-friendly LF format.
   - sha: "5333986946c8626d3a5adf20bba39454ffe6d182"
     changeNotes: |
       Updated the template to load the Starti Pixel SDK from the production CDN.
