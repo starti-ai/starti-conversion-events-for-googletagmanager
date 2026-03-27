@@ -1,9 +1,10 @@
 homepage: "https://github.com/starti-ai/starti-conversion-events-for-googletagmanager"
 documentation: "https://github.com/starti-ai/starti-conversion-events-for-googletagmanager"
 versions:
-  - sha: "0d7ef58dfd71b7e9f8b4ebec69c2179162f673b6"
+  - sha: "7685741f81272c7fee54b18f022f218eadf2d8d9"
     changeNotes: |
       Updated the template to load the Starti Pixel SDK from the production CDN.
+      Re-exported the template with Community Template Gallery Terms of Service.
   - sha: "b3e7541de41e501ecb33daea60863c0fd4fc8ec8"
     changeNotes: |
       Initial public release of the Starti Conversion Events Pixel template.
