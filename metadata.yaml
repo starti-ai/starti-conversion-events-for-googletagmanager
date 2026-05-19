@@ -1,6 +1,9 @@
 homepage: "https://github.com/starti-ai/starti-conversion-events-for-googletagmanager"
 documentation: "https://github.com/starti-ai/starti-conversion-events-for-googletagmanager"
 versions:
+  - sha: "d3e348ad8c74c669a0a3259f3ae7e53f13360bc3"
+    changeNotes: |
+      Updated the template to collect additional event data.
   - sha: "e9cf0245aa7b03ee967361d392e590c67993a72d"
     changeNotes: |
       Replaced the template brand thumbnail with a PNG data URI.
