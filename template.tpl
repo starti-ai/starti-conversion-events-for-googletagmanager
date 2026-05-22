@@ -726,7 +726,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://piexl.oss-cn-beijing.aliyuncs.com/starti-pixel-v1.0.0.min.js"
+                "string": "https://cdn.starti.ai/js/starti-pixel-v1.0.0.min.js"
               }
             ]
           }
@@ -810,7 +810,7 @@ scenarios:
 
     runCode(mockData);
 
-    assertThat(injectedUrl).isEqualTo('https://piexl.oss-cn-beijing.aliyuncs.com/starti-pixel-v1.0.0.min.js');
+    assertThat(injectedUrl).isEqualTo('https://cdn.starti.ai/js/starti-pixel-v1.0.0.min.js');
     assertThat(calls[0].command).isEqualTo('init');
     assertThat(calls[0].arg1.adv_id).isEqualTo('adv_001');
     assertThat(calls[0].arg1.pixel_id).isEqualTo('px_001');
